@@ -44,7 +44,11 @@ class Grade {
     public char getGrade() {
         return grade;
     }
+    public String toString() {
+        return "Student ID: " + studentID + ", Course ID: " + courseID + ", Grade: " + grade;
+    }
 }
+
 
 class GradingSystem {
     private Student[] students;
